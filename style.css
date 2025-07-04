@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+  background-color: #0d1b2a;
+  color: white;
+}
+
+#ui {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background: rgba(20, 20, 30, 0.85);
+  padding: 16px 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+  max-height: 90vh;
+  overflow-y: auto;
+  font-size: 14px;
+  z-index: 10;
+  backdrop-filter: blur(6px);
+  border: 1px solid rgba(255,255,255,0.1);
+}
+
+#ui h2 {
+  margin-top: 0;
+  font-size: 18px;
+  border-bottom: 1px solid rgba(255,255,255,0.2);
+  padding-bottom: 6px;
+  margin-bottom: 12px;
+}
+
+#controls label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  gap: 8px;
+  color: #ddd;
+}
+
+input[type="range"] {
+  flex: 1;
+  accent-color: #00ccff;
+  height: 4px;
+  border-radius: 4px;
+  background: #555;
+  cursor: pointer;
+}
+
+canvas {
+  display: block;
+}
+
+#tooltip {
+  position: absolute;
+  display: none;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 5px 10px;
+  font-size: 12px;
+  border-radius: 5px;
+  pointer-events: none;
+  z-index: 20;
+}
