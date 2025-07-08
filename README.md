@@ -1,6 +1,6 @@
-# 3D Solar System Simulation – Internship Assignment
+# 3D Solar System Simulation 
 
-This is a fully interactive 3D simulation of the solar system built using **HTML, CSS, JavaScript**, and **Three.js** — created as part of a frontend development internship assignment.
+This is a fully interactive 3D simulation of the solar system built using **HTML, CSS, JavaScript**, and **Three.js** — created as part of a frontend development project.
 
 It simulates planetary orbits around the sun, visual orbit paths, textured surfaces, and interactive controls — all built without any frameworks.
 
@@ -23,5 +23,5 @@ It simulates planetary orbits around the sun, visual orbit paths, textured surfa
 
 ---
 
-##  Folder Structure
+
 
